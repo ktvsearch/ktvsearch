@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ktv Search</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.16/fh-3.1.3/sc-1.4.3/datatables.min.css"
+    />
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/fh-3.1.3/sc-1.4.3/datatables.min.js"></script>
+    <script type="text/javascript" src="packet.js"></script>
+    <script type="text/javascript" src="ktvsearch.js"></script>
+    <style>
+        tfoot {
+            display: none;
+        }
+
+        p.description {
+            font-size: 0.75em;
+        }
+
+        a.videoTitle {
+            font-size: 1em;
+        }
+
+        .dataTables_filter {
+            display: none;
+        }
+
+        .col-header-table {
+            margin: 0;
+            max-width: 100%;
+        }
+
+        .col-header-td {
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Видео</th>
+                <th>Дата</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Видео</th>
+                <th>Дата</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
