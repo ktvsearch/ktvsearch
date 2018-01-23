@@ -40,7 +40,8 @@ $(document).ready(function () {
         var timeout = null;
         var searchFunction = function () {
             if (that.search() !== input.value) {
-                that.search(input.val()).draw();
+                var value = input.val();
+                that.search(value, false, true).draw();
             }
             timeout = null;
         };
