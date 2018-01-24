@@ -4,7 +4,7 @@ $(document).ready(function () {
         var title = $(this).text();
         var html = '<input style="width: 100%; font-size: 1.25em; min-width: 100px;" type="text" placeholder="' + title + '" />';
         $(this).html(html);
-        $(this).css("padding", "8px 40px 8px 8px");
+        $(this).css("padding", "8px 60px 8px 8px");
         $(this).css("text-align", "left");        
     });
 
